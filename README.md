@@ -82,7 +82,7 @@ Originally we expected to look at some of the post-dqn example approaches, espec
 
 So we start with our original agent and model, which we've imported locally and import the (slightly modified) dqn functionfor the unity setup. 
 
-#Running the model
+# Running the model  
 To run the code, download my entire repository onto your local drive, which includes the banana.zip file that you'll want to unpack locally, and copy the Banana.exe into the project top folder for the self-contained unity environment. You will probably want to make sure you have a recent version of MS Visual Studios (2017to 2022 seemed to be OK) and use your Anaconda powershell to create the drlnd anaconda environment. In Anaconda,  click on the "Applications on " pull-down menu and select your newly created drlnd environment (drlnd) and once that loads then launch the Jupyter notebook from that particular environment. 
 
 Once in the notebook, you'll want to go the the kernel and at the bottom change your kernel from python to your newly created drlnd. At this point you are ready to run the notebook. For reference I still included the initial "train" "test" cases which basically just selected random actions, as this was in the 
