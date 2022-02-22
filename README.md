@@ -16,7 +16,7 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
 This project is considered complete when the 100 average of the training scores exceed 13"
 
-I've also included the Udacity .gitignore, CODEOWNERS, and LICENCE files for the entire Reinforcement Learning class as well as the class readme file, renamed to readme2nd.md again to avoid conflicts with this file (project) readme file.
+I've also included the Udacity .gitignore, CODEOWNERS, and LICENCE files for the entire Reinforcement Learning class as well as the class readme file, renamed to readme2nd.md again to avoid conflicts with this file (project) readme file, and the Installation.md file for the Unity ML-Agents Toolkit installation details.
 
 # Brief description of setting up the environment
 This development was performed in Windows 64bit environment, so if you have a different computer environment you may need (slightly) different instructions, particularly with regards to the Unity Banana.zip file.
