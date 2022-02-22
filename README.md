@@ -1,5 +1,5 @@
 # Introduction to my Udacity Navigation Project
-This readme attempts to describe what you need to run my solution in ADDITION / SUPPLIMENTAL to the basic Udacity 1st Project for the Reinforcement Learning class Navigation project P1_Naviation readme information.
+This readme describes what you need to run my solution in ADDITION / SUPPLIMENTAL to the basic Udacity 1st Project for the Reinforcement Learning class Navigation project P1_Naviation readme information.
 
 Briefly the project uses the Unity (MS Visual Studios) pre-defined environment (Bananas.exe) which is a simple game to get the yellow bananas for a reward of +1, avoid the blue bananas for a reward of -1 based on actions (forward, backward, left, right) and forward perception for a total of 37 states. The further details of this project is contained in this directory in the readme1st.md file, which was the Udacity original readme file for this project, which I renamed to avoid conflict/confusion. 
 
