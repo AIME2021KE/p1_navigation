@@ -98,3 +98,6 @@ Once in the notebook, you'll want to go the the kernel and at the bottom change 
 
 The user can select kernel on the top of the notebook and then select restart and run all to run all the cells. First time I found I had to have the section that is commented out, but after that we didn't need to install the pyvirtualdisplay package. 
 
+The way we set the notebook up, the user just needs to run the dqn function having defined the agent, env from unityagents, and the resulting brain_name. When you train set the train_mode=True, and setting eps start, end, and decay values to desired (we used 1.0, 0.01, and 0.995, respectively). I like a lot more feedback so I set the dprint value to only 10 and we captured both the raw scores as well as the 100 average
+
+To demonstrate the trained network, we load the defined dictionary into the local qnetwork, which we've seen how to do previously, critically we also need to eval() the local network and finally reset the environment but now with train_mode=False and finally run dqn function but train_mode=False and set eps to 0.0
